@@ -1,17 +1,15 @@
-const http = require('http');
+const http = require('http')  // require built-in Node.js http package
 
+// Use hosting values if available, otherwise default 
+const hostname = process.env.hostname || '0.0.0.0' // allow remote access
+const port = process.env.PORT || 3002
 
-
-const hostname =  process.env.hostname || '127.0.0.1';
-const port = process.env.PORT || 3000;
-
+// define our server
 const server = http.createServer((req, res) => {
-  res.statusCode = 200;
-  res.setHeader('Content-Type', 'text/plain');
-  res.write('Rajeshwari Rudravaram ');
-  res.end('Hello World...! Here is my new app.');
-});
-
+  res.statusCode = 200
+  res.setHeader('Content-Type', 'text/plain')
+  res.end('Rajeshari Rudravaram /n Hello World! Node Server has started :)\n')
+})
 
 // start listening
 // use the server console to tell user where to find the server
