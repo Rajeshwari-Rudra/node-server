@@ -1,0 +1,19 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "server side app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rajeshwari-Rudra/node-server.git"
+  },
+  "author": "Rajeshwari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rajeshwari-Rudra/node-server/issues"
+  },
+  "homepage": "https://github.com/Rajeshwari-Rudra/node-server#readme"
+}
